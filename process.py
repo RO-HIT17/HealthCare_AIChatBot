@@ -1,20 +1,22 @@
 # process.py
+import csv
 import nltk
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 nltk.download('punkt_tab')
 
-
-data = [
-    ("fever cough throat ", "Flu", "Paracetamol"),
-    ("headache nausea", "Migraine", "Ibuprofen"),
-    
-]
+# Load data from CSV
+data = []
+with open('disease_data.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        data.append((row['symptoms'], row['disease'], row['medicine'], row['specialization']))
 
 symptoms_list = [item[0] for item in data]
 diseases = [item[1] for item in data]
 medicines = [item[2] for item in data]
+specializations = [item[3] for item in data]
 
 vectorizer = CountVectorizer()
 X = vectorizer.fit_transform(symptoms_list)
@@ -33,4 +35,5 @@ def process_symptoms(text):
     X_test = vectorizer.transform([symptoms])
     predicted_disease = clf.predict(X_test)[0]
     medicine = medicines[diseases.index(predicted_disease)]
-    return {"disease": predicted_disease, "medicine": medicine}
+    specialization = specializations[diseases.index(predicted_disease)]
+    return {"disease": predicted_disease, "medicine": medicine, "specialization": specialization}
