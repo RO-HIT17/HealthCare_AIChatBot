@@ -1,73 +1,101 @@
 symptom,disease,medicine,specialization
 fever,Flu,Paracetamol,general
 cough,Flu,Paracetamol,general
-throat pain,Flu,Paracetamol,general
+sore throat,Common Cold,Acetaminophen,general
+chills,Influenza,Oseltamivir,general
+fatigue,Viral Fever,Ibuprofen,general
+body aches,Infectious Mononucleosis,Rest,general
+runny nose,Common Allergy,Antihistamine,general
+muscle aches,Seasonal Flu,Acetaminophen,general
+loss of appetite,Food Poisoning,ORS,general
+dry cough,Bronchitis,Cough Syrup,general
 headache,Migraine,Ibuprofen,neurology
-nausea,Migraine,Ibuprofen,neurology
+nausea,Migraine,Sumatriptan,neurology
+memory loss,Alzheimer's,Donepezil,neurology
+confusion,Dementia,Rivastigmine,neurology
+tremors,Parkinson's,Levodopa,neurology
+seizures,Epilepsy,Valproate,neurology
+blurred vision,Stroke,Clopidogrel,neurology
+dizziness,Vertigo,Meclizine,neurology
+difficulty concentrating,Tension Headache,Aspirin,neurology
+muscle weakness,ALS,Edaravone,neurology
 chest pain,Heart Attack,Aspirin,cardiology
-shortness of breath,Heart Attack,Aspirin,cardiology
+shortness of breath,Heart Failure,ACE Inhibitors,cardiology
+irregular heartbeat,Arrhythmia,Amiodarone,cardiology
+fainting,Cardiac Arrest,Defibrillation,cardiology
+rapid heart rate,Angina,Nitroglycerin,cardiology
+fatigue,Coronary Artery Disease,Statins,cardiology
+swelling in legs,Cardiomyopathy,Diuretics,cardiology
+chest discomfort,Heart Disease,Digoxin,cardiology
+dizziness,Hypertension,Amlodipine,cardiology
+palpitations,Heart Disease,Digoxin,cardiology
 joint pain,Arthritis,Ibuprofen,orthopedics
 swelling,Arthritis,Ibuprofen,orthopedics
-sore throat,Strep Throat,Amoxicillin,ent
-ear pain,Strep Throat,Amoxicillin,ent
-fatigue,Common Cold,Acetaminophen,general
-body aches,Common Cold,Acetaminophen,general
-dizziness,Alzheimer's,Donepezil,neurology
-memory loss,Alzheimer's,Donepezil,neurology
-rapid heart rate,Arrhythmia,Beta Blockers,cardiology
-stiffness,Osteoarthritis,Naproxen,orthopedics
-limited motion,Osteoarthritis,Naproxen,orthopedics
-sinus pressure,Sinusitis,Decongestant,ent
-sensitivity to light,Migraine,Sumatriptan,neurology
-chest tightness,Angina,Nitroglycerin,cardiology
-muscle stiffness,Fibromyalgia,Pregabalin,orthopedics
-itchy eyes,Allergic Rhinitis,Antihistamine,ent
-sudden fever,Malaria,Chloroquine,general
-confusion,Dementia,Rivastigmine,neurology
-swelling,Gout,Allopurinol,orthopedics
-nasal congestion,Sinus Infection,Amoxicillin,ent
-mild fever,Upper Respiratory Infection,Cough Syrup,general
-numbness in limbs,Multiple Sclerosis,Interferon Beta,neurology
-stiff neck,Ankylosing Spondylitis,Indomethacin,orthopedics
-ear fullness,Otitis Media,Amoxicillin,ent
-high fever,Typhoid,Ciprofloxacin,general
-tremors,Parkinson's,Levodopa,neurology
-irregular heartbeat,Heart Arrhythmia,Amiodarone,cardiology
-warmth in joints,Reactive Arthritis,Doxycycline,orthopedics
-ear pain,Ear Infection,Ofloxacin,ent
-runny nose,Viral Infection,Rest,general
-blurred vision,Stroke,Clopidogrel,neurology
-lightheadedness,Heart Failure,ACE Inhibitors,cardiology
+back pain,Disk Herniation,Physical Therapy,orthopedics
 restricted movement,Sciatica,Ibuprofen,orthopedics
-hoarseness,Pharyngitis,Ibuprofen,ent
-chills,Influenza,Oseltamivir,general
-concentration issues,Tension Headache,Aspirin,neurology
-swelling in legs,Cardiomyopathy,Diuretics,cardiology
+joint stiffness,Osteoarthritis,Naproxen,orthopedics
 shoulder pain,Rotator Cuff Injury,Physical Therapy,orthopedics
-loss of hearing,Tinnitus,Sound Therapy,ent
-slight fever,Exhaustion,Hydration,general
-difficulty sleeping,Insomnia,Melatonin,neurology
-sharp chest pain,Angina Pectoris,Nitroglycerin,cardiology
 ankle swelling,Ankle Sprain,Ice Packs,orthopedics
-blocked ears,Fluid in Ear,Decongestant,ent
-vision issues,Optic Neuritis,Corticosteroids,neurology
-back discomfort,Hypertensive Heart Disease,Beta Blockers,cardiology
 elbow pain,Tennis Elbow,Physiotherapy,orthopedics
-swollen tonsils,Tonsillitis,Antibiotics,ent
-tiredness,General Fatigue,Vitamin C,general
-tremor,Essential Tremor,Propranolol,neurology
+hip pain,Hip Bursitis,Ibuprofen,orthopedics
+knee pain,ACL Injury,Physical Therapy,orthopedics
+ear pain,Otitis Media,Amoxicillin,ent
+itchy eyes,Allergic Rhinitis,Antihistamine,ent
+ear fullness,Ear Infection,Ofloxacin,ent
+hoarse voice,Pharyngitis,Ibuprofen,ent
+sinus pressure,Sinusitis,Decongestant,ent
+nasal congestion,Sinus Infection,Amoxicillin,ent
+throat pain,Tonsillitis,Penicillin,ent
+blocked ears,Fluid in Ear,Decongestant,ent
+ringing in ears,Tinnitus,Sound Therapy,ent
+sore throat,Throat Infection,Lozenges,ent
+fever,Typhoid,Ciprofloxacin,general
+chest tightness,Angina,Nitroglycerin,cardiology
+nausea,Stomach Flu,Anti-nausea Medication,general
+vomiting,Food Poisoning,ORS,general
+cough with phlegm,Bronchitis,Guaifenesin,general
+runny nose,Viral Infection,Cough Syrup,general
+muscle cramps,Dehydration,Electrolyte Solution,general
+sore muscles,Fibromyalgia,Pregabalin,general
+fatigue,Chronic Fatigue Syndrome,Rest,general
+sweating,Hyperhidrosis,Antiperspirant,general
+blurred vision,Diabetic Retinopathy,Insulin,neurology
+numbness,Peripheral Neuropathy,Antidepressants,neurology
+sensitivity to light,Migraine,Fioricet,neurology
+difficulty speaking,Stroke,Thrombolytics,neurology
+loss of balance,Parkinson's,Dopamine Agonist,neurology
+head tremors,Multiple Sclerosis,Interferon Beta,neurology
+mood swings,Bipolar Disorder,Lithium,neurology
+sleep disturbances,Insomnia,Melatonin,neurology
+persistent headaches,Tension Headache,Aspirin,neurology
+fatigue with muscle pain,Fibromyalgia,Pregabalin,neurology
+sharp chest pain,Myocardial Infarction,Aspirin,cardiology
+pain in the chest,Heart Attack,Clopidogrel,cardiology
+shortness of breath,Asthma,Inhaler,cardiology
+irregular heartbeat,Tachycardia,Metoprolol,cardiology
+dizziness,Heart Valve Disease,Diuretics,cardiology
+fatigue,Heart Failure,ACE Inhibitors,cardiology
+leg swelling,Heart Disease,Compression Stockings,cardiology
 chest discomfort,Coronary Spasm,Calcium Channel Blockers,cardiology
-shoulder stiffness,Frozen Shoulder,Heat Therapy,orthopedics
-persistent cough,Bronchitis,Cough Syrup,general
-fainting,Neurological Disorder,Topiramate,neurology
-chest tightness,Cardiomegaly,ACE Inhibitors,cardiology
-neck pain,Whiplash Injury,Ibuprofen,orthopedics
-itchy ears,Ear Infection,Ear Drops,ent
-fatigue,Fatigue Syndrome,Rest,general
-muscle stiffness,ALS,Edaravone,neurology
-pain in joints,Joint Infection,Antibiotics,orthopedics
-runny nose,Nasal Congestion,Nasal Spray,ent
-headache,Migraine,Fioricet,neurology
-chest discomfort,Heart Attack,Aspirin,cardiology
-arm stiffness,Rotator Cuff Tear,Physiotherapy,orthopedics
-hoarse voice,Throat Allergy,Allergy Tablets,ent
+heavy chest,Stable Angina,Nitroglycerin,cardiology
+fainting episodes,Arrhythmia,Pacemaker,cardiology
+stiff joints,Rheumatoid Arthritis,Methotrexate,orthopedics
+muscle pain,Fibromyalgia,Pregabalin,orthopedics
+joint swelling,Gout,Allopurinol,orthopedics
+pain in knees,Meniscus Tear,Physical Therapy,orthopedics
+pain in shoulders,Shoulder Impingement,Physical Therapy,orthopedics
+ankle pain,Achilles Tendinitis,Ice Packs,orthopedics
+elbow stiffness,Tennis Elbow,Physiotherapy,orthopedics
+hip pain,Osteoarthritis,Naproxen,orthopedics
+muscle spasms,Muscle Strain,Rest,general
+joint tenderness,Reactive Arthritis,Doxycycline,orthopedics
+ear discomfort,Ear Infection,Amoxicillin,ent
+sore throat,Strep Throat,Amoxicillin,ent
+hearing loss,Conductive Hearing Loss,Hearing Aids,ent
+nasal congestion,Allergic Rhinitis,Antihistamine,ent
+swollen glands,Tonsillitis,Penicillin,ent
+post-nasal drip,Sinusitis,Decongestant,ent
+ear fullness,Fluid in Ear,Decongestant,ent
+hoarseness,Laryngitis,Rest,ent
+itchy throat,Throat Infection,Lozenges,ent
+runny nose,Allergic Rhinitis,Antihistamine,ent
