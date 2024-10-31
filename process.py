@@ -1,11 +1,13 @@
-
+# process.py
 import nltk
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
+nltk.download('punkt_tab')
+
 
 data = [
-    ("fever cough", "Flu", "Paracetamol"),
+    ("fever cough throat ", "Flu", "Paracetamol"),
     ("headache nausea", "Migraine", "Ibuprofen"),
     
 ]
@@ -19,7 +21,15 @@ X = vectorizer.fit_transform(symptoms_list)
 clf = MultinomialNB()
 clf.fit(X, diseases)
 
-def process_symptoms(symptoms):
+def extract_symptoms(text):
+    words = nltk.word_tokenize(text.lower())
+    symptoms = [word for word in words if word in vectorizer.get_feature_names_out()]
+    return ' '.join(symptoms)
+
+def process_symptoms(text):
+    symptoms = extract_symptoms(text)
+    if not symptoms:
+        return {"error": "No recognizable symptoms found"}
     X_test = vectorizer.transform([symptoms])
     predicted_disease = clf.predict(X_test)[0]
     medicine = medicines[diseases.index(predicted_disease)]
