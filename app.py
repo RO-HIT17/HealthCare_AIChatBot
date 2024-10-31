@@ -1,6 +1,6 @@
 
 from flask import Flask, request, jsonify
-from process import process_symptoms
+from process1 import process_symptoms
 
 app = Flask(__name__)
 
