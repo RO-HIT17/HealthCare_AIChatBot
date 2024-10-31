@@ -1,0 +1,8 @@
+version: "2.0"
+nlu:
+- intent: provide_symptom
+  examples: |
+    - I have a [fever](symptom)
+    - I am experiencing [cough](symptom)
+    - I feel a [headache](symptom)
+    - I have [chest pain](symptom)
